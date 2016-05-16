@@ -16,11 +16,13 @@ public class PlayerMovement : MonoBehaviour {
     bool slide;
     GameObject groundtag;
     public LayerMask layer;
+    ParticleSystem healeffect;
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody>();
         groundtag = transform.GetChild(0).gameObject;
         slide = false;
+        healeffect = transform.GetChild(1).GetComponent<ParticleSystem>();
 	}
 	void Update()
     {
@@ -102,5 +104,15 @@ public class PlayerMovement : MonoBehaviour {
         //}
         //Vector3 movedir = new Vector3(h * airspeed, 0, 0);
         //rb.AddForce(movedir, ForceMode.VelocityChange);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Healing"))
+        {
+            healeffect.Play();
+            HP.recover(2);
+            Destroy(other.gameObject);
+        }
     }
 }
