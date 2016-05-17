@@ -1,0 +1,2301 @@
+fileFormatVersion: 2
+guid: c352459ab1834224388aba2c6904d43c
+timeCreated: 1463453973
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BottomLips
+    100002: Eyes
+    100004: Eyes1
+    100006: Hair1
+    100008: Hair2
+    100010: Hair3
+    100012: Head
+    100014: Hip
+    100016: Hips
+    100018: //RootNode
+    100020: joint10
+    100022: joint20
+    100024: joint20 1
+    100026: joint21
+    100028: joint21 1
+    100030: joint24
+    100032: joint24 1
+    100034: joint47
+    100036: joint47 1
+    100038: joint55
+    100040: joint56
+    100042: joint56 1
+    100044: joint59
+    100046: joint6
+    100048: joint60
+    100050: joint61
+    100052: joint62
+    100054: joint63
+    100056: joint7
+    100058: joint71
+    100060: joint71 1
+    100062: L_Eyebrow
+    100064: L_EyeBrow1
+    100066: L_Eyebrow1
+    100068: L_EyeBrow1 1
+    100070: L_Forehead
+    100072: L_Leg
+    100074: L_Leg1
+    100076: LEyebrow3
+    100078: LEyebrow3 1
+    100080: LHands1
+    100082: LHAnds2
+    100084: LHAnds2 1
+    100086: LHands3
+    100088: LHands3 1
+    100090: LHands6
+    100092: LLeg2
+    100094: LLeg2 1
+    100096: LLeg3
+    100098: LLeg3 1
+    100100: Mouth
+    100102: polySurface1
+    100104: Spine1
+    100106: Spine2
+    100108: TopLips
+    100110: Tounge1
+    100112: Tounge2
+    400000: BottomLips
+    400002: Eyes
+    400004: Eyes1
+    400006: Hair1
+    400008: Hair2
+    400010: Hair3
+    400012: Head
+    400014: Hip
+    400016: Hips
+    400018: //RootNode
+    400020: joint10
+    400022: joint20
+    400024: joint20 1
+    400026: joint21
+    400028: joint21 1
+    400030: joint24
+    400032: joint24 1
+    400034: joint47
+    400036: joint47 1
+    400038: joint55
+    400040: joint56
+    400042: joint56 1
+    400044: joint59
+    400046: joint6
+    400048: joint60
+    400050: joint61
+    400052: joint62
+    400054: joint63
+    400056: joint7
+    400058: joint71
+    400060: joint71 1
+    400062: L_Eyebrow
+    400064: L_EyeBrow1
+    400066: L_Eyebrow1
+    400068: L_EyeBrow1 1
+    400070: L_Forehead
+    400072: L_Leg
+    400074: L_Leg1
+    400076: LEyebrow3
+    400078: LEyebrow3 1
+    400080: LHands1
+    400082: LHAnds2
+    400084: LHAnds2 1
+    400086: LHands3
+    400088: LHands3 1
+    400090: LHands6
+    400092: LLeg2
+    400094: LLeg2 1
+    400096: LLeg3
+    400098: LLeg3 1
+    400100: Mouth
+    400102: polySurface1
+    400104: Spine1
+    400106: Spine2
+    400108: TopLips
+    400110: Tounge1
+    400112: Tounge2
+    4300000: polySurface1
+    7400000: Idle
+    7400002: IdleBreaker
+    7400004: Run
+    7400006: Yaranaika
+    7400008: Jump
+    7400010: Hover
+    7400012: Drop
+    7400014: SquirtNormal
+    7400016: SquirtHigh
+    7400018: SquirtUpwards
+    7400020: RunningSquirt
+    7400022: RunningSquirtHigh
+    7400024: RunningSquirtUp
+    7400026: JumpingSquirt
+    7400028: HoverSquirt
+    9500000: //RootNode
+    13700000: polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: JellyMan8
+      firstFrame: 5
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleBreaker
+      takeName: JellyMan8
+      firstFrame: 216
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: JellyMan8
+      firstFrame: 280
+      lastFrame: 299
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yaranaika
+      takeName: JellyMan8
+      firstFrame: 310
+      lastFrame: 342
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: JellyMan8
+      firstFrame: 352
+      lastFrame: 374
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hover
+      takeName: JellyMan8
+      firstFrame: 385
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Drop
+      takeName: JellyMan8
+      firstFrame: 405
+      lastFrame: 455
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SquirtNormal
+      takeName: JellyMan8
+      firstFrame: 456
+      lastFrame: 475
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SquirtHigh
+      takeName: JellyMan8
+      firstFrame: 485
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SquirtUpwards
+      takeName: JellyMan8
+      firstFrame: 505
+      lastFrame: 525
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunningSquirt
+      takeName: JellyMan8
+      firstFrame: 541
+      lastFrame: 566
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunningSquirtHigh
+      takeName: JellyMan8
+      firstFrame: 581
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunningSquirtUp
+      takeName: JellyMan8
+      firstFrame: 648
+      lastFrame: 688
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpingSquirt
+      takeName: JellyMan8
+      firstFrame: 701
+      lastFrame: 740
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HoverSquirt
+      takeName: JellyMan8
+      firstFrame: 745
+      lastFrame: 780
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip
+        weight: 1
+      - path: Hip/Hips
+        weight: 1
+      - path: Hip/Hips/L_Leg
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3
+        weight: 1
+      - path: Hip/Hips/L_Leg/LLeg2/LLeg3/joint24
+        weight: 1
+      - path: Hip/Hips/L_Leg1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1
+        weight: 1
+      - path: Hip/Hips/L_Leg1/LLeg2 1/LLeg3 1/joint24 1
+        weight: 1
+      - path: Hip/LHands1
+        weight: 1
+      - path: Hip/LHands1/LHAnds2
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3
+        weight: 1
+      - path: Hip/LHands1/LHAnds2/LHands3/joint47
+        weight: 1
+      - path: Hip/LHands6
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1
+        weight: 1
+      - path: Hip/LHands6/LHAnds2 1/LHands3 1/joint47 1
+        weight: 1
+      - path: Hip/Spine1
+        weight: 1
+      - path: Hip/Spine1/Spine2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Hair1/Hair2/Hair3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint20
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint21
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes/joint71
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint20 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint21 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/Eyes1/joint71 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/L_EyeBrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow/LEyebrow3
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/L_EyeBrow1 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/L_Forehead/L_Eyebrow1/LEyebrow3 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint60
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint6/TopLips/joint62
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint61
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint7/BottomLips/joint63
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint55/joint56
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/joint59/joint56 1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2
+        weight: 1
+      - path: Hip/Spine1/Spine2/Head/Mouth/Tounge1/Tounge2/joint10
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
