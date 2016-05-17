@@ -12,6 +12,7 @@ public static class HP {
         if(health <= 0)
         {
             health = 0;
+            Dieded();
         }
     }
 
@@ -27,5 +28,10 @@ public static class HP {
     public static void resethealth()
     {
         health = 5;
+    }
+
+    public static void Dieded()
+    {
+        Debug.Log("You Lose");
     }
 }

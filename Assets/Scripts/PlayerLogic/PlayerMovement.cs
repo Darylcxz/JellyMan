@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
     Rigidbody rb;
+    Animator jmAnim;
     [SerializeField]float speed;
     [SerializeField]float jumpspeed;
     [SerializeField]float airspeed;
@@ -11,6 +12,7 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField]float gravity;
     float hori;
     float hangtime;
+    Vector3 targetrot;
     bool jumpboosted;
     bool OnGround;
     bool slide;
@@ -23,6 +25,7 @@ public class PlayerMovement : MonoBehaviour {
         groundtag = transform.GetChild(0).gameObject;
         slide = false;
         healeffect = transform.GetChild(1).GetComponent<ParticleSystem>();
+        jmAnim = GetComponent<Animator>();
 	}
 	void Update()
     {
@@ -31,12 +34,16 @@ public class PlayerMovement : MonoBehaviour {
         if(Input.GetButtonDown("Jump") && OnGround)
         {
             Jump();
+            jmAnim.SetTrigger("jump");
         }
         if(Input.GetButton("Jump") && !jumpboosted)
         {
             rb.AddForce(Vector3.up * jumpspeed * jumpmultiplier, ForceMode.Acceleration);
             hangtime += Time.deltaTime;
         }
+
+        if (Input.GetButtonDown("Jump") && !OnGround)
+            jmAnim.SetTrigger("Hover");
 
         if(hangtime > maxhangtime && !jumpboosted)
         {
@@ -67,23 +74,38 @@ public class PlayerMovement : MonoBehaviour {
         {
             Move(hori);
         }
+
+        Rotate(hori);
 	}
 
     void Move(float h)
     {
         // velocity movement
+        float input = Mathf.Abs(hori);
+        jmAnim.SetFloat("speed", input);
         Vector3 movedir = rb.velocity;
         movedir.x = h * speed;
         rb.velocity = movedir;
-
-        if(slide)
-        {
-            rb.velocity *= 2;
-            slide = false;
-        }
+        
         // Addforce movement
         //Vector3 movedir = new Vector3(h * speed, 0, 0);
         //rb.AddForce(movedir, ForceMode.VelocityChange);
+    }
+
+    void Rotate(float horizontal)
+    {
+        
+        if(hori > 0.1f)
+        {
+            targetrot = Vector3.right;
+        }
+
+        else if(hori < -0.1f)
+        {
+            targetrot = Vector3.left;
+        }
+        Quaternion rotation = Quaternion.LookRotation(targetrot);
+        rb.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 10);
     }
 
     void Jump()
@@ -113,6 +135,11 @@ public class PlayerMovement : MonoBehaviour {
             healeffect.Play();
             HP.recover(2);
             Destroy(other.gameObject);
+        }
+
+        if(other.CompareTag("Spikes"))
+        {
+            HP.damage(5);
         }
     }
 }
