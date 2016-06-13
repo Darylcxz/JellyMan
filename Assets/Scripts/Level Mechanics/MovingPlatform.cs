@@ -3,18 +3,25 @@ using System.Collections;
 
 public class MovingPlatform : MonoBehaviour {
     public Transform[] waypoints;
+    [SerializeField] bool pauses;
     Vector3 currstart;
     Vector3 currEnd;
     int currwaypt;
     bool moving;
     bool forward;
     float factor;
+    float pausetime;
     [SerializeField] float speedmultiplier;
 	// Use this for initialization
 	void Start () {
+        if (pauses)
+            pausetime = 1.5f;
+        else if (!pauses)
+            pausetime = 0.1f;
+
         currwaypt = 0;
-        forward = true;
         factor = 0;
+        forward = true;
         moving = true;
 	}
 	
@@ -24,7 +31,7 @@ public class MovingPlatform : MonoBehaviour {
         {
             Debug.Log("stopped");
             moving = false;
-            Invoke("MoveAgain", 1.5f);
+            Invoke("MoveAgain", pausetime);
             factor = 0;
             if (forward)
                 currwaypt += 1;
