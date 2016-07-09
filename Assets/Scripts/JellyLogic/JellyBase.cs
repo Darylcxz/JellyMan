@@ -14,6 +14,12 @@ public class JellyBase : MonoBehaviour {
 
     }
     public JellyType JellyColor;
+    [SerializeField] protected MeshRenderer matRenderer;
+
+    protected virtual void Start()
+    {
+        matRenderer = matRenderer.GetComponent<MeshRenderer>();
+    }
     protected virtual void OnCollisionEnter()
     {
         //Might wanna check if it hits on a surface? Or do we do that via physics layering lol
